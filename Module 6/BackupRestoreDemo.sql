@@ -1,0 +1,6 @@
+Restore Database MDT 
+FROM DISK='E:\SQLBCK\BackupDemo.bak' WITH RECOVERY 
+
+RESTORE DATABASE MDT 
+FROM DISK='E:\SQLBCK\BackupDemo.bak' with NORECOVERY 
+RESTORE LOG MDT FROM DISK = 'E:\SQLBCK\BackupDemo.bak'
